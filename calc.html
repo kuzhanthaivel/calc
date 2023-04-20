@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
 </head>
 <body>
     <div id="main">
@@ -32,78 +33,9 @@
             <br>
         </form>
     </div>
-<script >
-  function add(){
-                var act=0,b=0;
-                act=f.ddd.value;
-                b=act.charAt(act.length-1);
-               if(b=='+'||b=='-'||b=='*'||b=='/'){
-                    f.ddd.value=act.substring(0,act,length-1);
-                    f.ddd.value+='+';
-        
-                  }
-                else{
-                   f.ddd.value+='+';
-                  }
-}
-  function sub_(){
-                var act=0,b=0;
-                act=f.ddd.value;
-                b=act.charAt(act.length-1);
-               if(b=='+'||b=='-'||b=='*'||b=='/'){
-                    f.ddd.value=act.substring(0,act,length-1);
-                    f.ddd.value+='-';
-        
-                  }
-                else{
-                   f.ddd.value+='-';
-                  }
-                }
-  function mul_(){
-                var act=0,b=0;
-                act=f.ddd.value;
-                b=act.charAt(act.length-1);
-               if(b=='+'||b=='-'||b=='*'||b=='/'){
-                    f.ddd.value=act.substring(0,act,length-1);
-                    f.ddd.value+='*';
-        
-                  }
-                else{
-                   f.ddd.value+='*';
-                  }
-                }
-  function div_(){
-                var act=0,b=0;
-                act=f.ddd.value;
-                b=act.charAt(act.length-1);
-               if(b=='+'||b=='-'||b=='*'||b=='/'){
-                    f.ddd.value=act.substring(0,act,length-1);
-                    f.ddd.value+='/';
-        
-                  }
-                else{
-                   f.ddd.value+='/';
-                  }
-                }               
- </script>
- <style> 
-       #main{
-        width: 300px;
-         height: 300px;
-         background-color: black;
-       }
-       input{
-        width: 20%;
-        height: 40px;
-        font-size: 20px;
-        margin: 6px;
-       }
-       #eee{
-        width: 96%;
-        height: 40px;
-        background-color: silver;
-       }
+<script  src="calc.js">
 
- </style>
+                          
+ </script>
 </body>
 </html>
