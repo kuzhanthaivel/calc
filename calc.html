@@ -9,7 +9,7 @@
 <body>
     <div id="main">
         <form name="f">
-            <input type="text" name="ddd"  placeholder="0"><br>
+            <input type="text" name="ddd"  placeholder="0" id="eee"><br>
             <input type="button" value="1" onclick="f.ddd.value+=1">
             <input type="button" value="2" onclick="f.ddd.value+=2">
             <input type="button" value="3" onclick="f.ddd.value+=3">
@@ -86,5 +86,24 @@
                   }
                 }               
  </script>
+ <style> 
+       #main{
+        width: 300px;
+         height: 300px;
+         background-color: black;
+       }
+       input{
+        width: 20%;
+        height: 40px;
+        font-size: 20px;
+        margin: 6px;
+       }
+       #eee{
+        width: 96%;
+        height: 40px;
+        background-color: silver;
+       }
+
+ </style>
 </body>
 </html>
